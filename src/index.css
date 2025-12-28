@@ -24,8 +24,6 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -65,4 +63,23 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+img {
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.primary-image {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.images {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
